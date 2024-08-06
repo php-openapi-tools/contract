@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace OpenAPITools\Contract;
 
-use OpenAPITools\Representation\Representation;
+use OpenAPITools\Representation\Namespaced\Representation;
 use OpenAPITools\Utils\File;
 
 interface FileGenerator
