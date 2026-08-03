@@ -5,12 +5,16 @@ declare(strict_types=1);
 namespace OpenAPITools\Contract;
 
 use OpenAPITools\Contract\Package\Destination;
+use OpenAPITools\Contract\Package\Metadata;
 use OpenAPITools\Contract\Package\QA;
 use OpenAPITools\Contract\Package\State;
 use OpenAPITools\Contract\Package\Templates;
 use OpenAPITools\Utils\Namespace_;
 
 /**
+ * @api
+ *
+ * @property Metadata $metadata
  * @property string $vendor
  * @property string $name
  * @property string|null $repository

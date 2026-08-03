@@ -1,49 +1,61 @@
 {
-    "name": "openapi-tools/contract",
-    "description": "Contracts for OpenAPI Tools",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Cees-Jan Kiewiet",
-            "email": "ceesjank@gmail.com"
-        }
-    ],
-    "require": {
-        "php": "^8.2",
-        "nikic/php-parser": "^4.18",
-        "openapi-tools/representation": "dev-main",
-        "openapi-tools/utils": "dev-main"
-    },
-    "require-dev": {
-        "wyrihaximus/test-utilities": "^5.6"
-    },
-    "autoload": {
-        "psr-4": {
-            "OpenAPITools\\Contract\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "OpenAPITools\\Tests\\Contract\\": "tests/"
-        }
-    },
-    "config": {
-        "allow-plugins": {
-            "dealerdirect/phpcodesniffer-composer-installer": true,
-            "ergebnis/composer-normalize": true,
-            "infection/extension-installer": true,
-            "wyrihaximus/composer-update-bin-autoload-path": true
-        },
-        "platform": {
-            "php": "8.2.13"
-        }
-    },
-    "scripts": {
-        "post-install-cmd": [
-            "composer normalize"
-        ],
-        "post-update-cmd": [
-            "composer normalize"
-        ]
+  "name": "openapi-tools/contract",
+  "description": "Contracts for OpenAPI Tools",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Cees-Jan Kiewiet",
+      "email": "ceesjank@gmail.com"
     }
+  ],
+  "require": {
+    "php": "^8.4",
+    "nikic/php-parser": "^5.0",
+    "openapi-tools/representation": "dev-main",
+    "openapi-tools/utils": "dev-main"
+  },
+  "require-dev": {
+    "wyrihaximus/async-test-utilities": "^13.5.0",
+    "wyrihaximus/makefiles": "^0.13.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "OpenAPITools\\Contract\\": "src/"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "composer/package-versions-deprecated": true,
+      "dealerdirect/phpcodesniffer-composer-installer": true,
+      "drupol/composer-packages": true,
+      "ergebnis/composer-normalize": true,
+      "icanhazstring/composer-unused": true,
+      "infection/extension-installer": true,
+      "mindplay/composer-locator": true,
+      "phpstan/extension-installer": true,
+      "wyrihaximus/composer-update-bin-autoload-path": true,
+      "wyrihaximus/makefiles": true,
+      "wyrihaximus/test-utilities": true
+    },
+    "platform": {
+      "php": "8.4.13"
+    },
+    "sort-packages": true
+  },
+  "extra": {
+    "wyrihaximus": {
+      "supported-features": {
+        "code-style": false,
+        "unit-tests": false
+      }
+    }
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "make on-install-or-update || true"
+    ],
+    "post-update-cmd": [
+      "make on-install-or-update || true"
+    ]
+  }
 }

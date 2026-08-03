@@ -6,6 +6,10 @@ namespace OpenAPITools\Contract\Voter;
 
 use OpenAPITools\Representation\Operation;
 
+/**
+ *
+ * @api
+ */
 interface ListOperation
 {
     public static function incrementorKey(): string;
