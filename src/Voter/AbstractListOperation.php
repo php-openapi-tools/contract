@@ -7,7 +7,12 @@ namespace OpenAPITools\Contract\Voter;
 use OpenAPITools\Representation;
 
 use function array_key_exists;
+use function in_array;
 
+/**
+ *
+ * @api
+ */
 abstract class AbstractListOperation implements ListOperation
 {
     final public static function list(Representation\Operation $operation): bool
@@ -17,7 +22,7 @@ abstract class AbstractListOperation implements ListOperation
                 return false;
             }
 
-            if ($response->code === 200 && $response->content instanceof Representation\Property\Type && $response->content->type !== 'array') {
+            if ($response->code === 200 && $response->content->type !== 'array') {
                 return false;
             }
         }
@@ -39,12 +44,6 @@ abstract class AbstractListOperation implements ListOperation
             $match[$parameter->name] = true;
         }
 
-        foreach ($match as $matched) {
-            if ($matched === false) {
-                return false;
-            }
-        }
-
-        return true;
+        return ! in_array(false, $match, true);
     }
 }

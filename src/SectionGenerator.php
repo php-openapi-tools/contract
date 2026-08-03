@@ -6,6 +6,10 @@ namespace OpenAPITools\Contract;
 
 use OpenAPITools\Representation;
 
+/**
+ *
+ * @api
+ */
 interface SectionGenerator
 {
     public static function path(Representation\Path $path): string|false;

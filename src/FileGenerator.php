@@ -7,6 +7,10 @@ namespace OpenAPITools\Contract;
 use OpenAPITools\Representation\Namespaced\Representation;
 use OpenAPITools\Utils\File;
 
+/**
+ *
+ * @api
+ */
 interface FileGenerator
 {
     /** @return iterable<File> */

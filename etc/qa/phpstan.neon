@@ -1,2 +1,5 @@
-includes:
-	- ../../vendor/wyrihaximus/test-utilities/rules.neon
+parameters:
+	level: max
+	paths:
+		- ../../etc
+		- ../../src

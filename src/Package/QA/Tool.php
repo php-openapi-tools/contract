@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace OpenAPITools\Contract\Package\QA;
 
 /**
+ * @api
  * @property bool $enabled,
  * @property string|null $configFilePath,
  */
