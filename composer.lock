@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8b25b5e64161871414077cd2dcfa13d7",
+    "content-hash": "735514b4428a88255c2f0d90ff037ed2",
     "packages": [
         {
             "name": "devizzent/cebe-php-openapi",
@@ -523,6 +523,59 @@
                 }
             ],
             "time": "2026-08-03T14:47:34+00:00"
+        },
+        {
+            "name": "psr/http-message",
+            "version": "2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-message.git",
+                "reference": "402d35bcb92c70c026d1a6a9883f06b2ead23d71"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/402d35bcb92c70c026d1a6a9883f06b2ead23d71",
+                "reference": "402d35bcb92c70c026d1a6a9883f06b2ead23d71",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2 || ^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP messages",
+            "homepage": "https://github.com/php-fig/http-message",
+            "keywords": [
+                "http",
+                "http-message",
+                "psr",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/http-message/tree/2.0"
+            },
+            "time": "2023-04-04T09:54:51+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -3904,11 +3957,11 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "2.2.7",
+            "version": "2.2.8",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/692db47b9dddb0487934e5236e77d48594aef921",
-                "reference": "692db47b9dddb0487934e5236e77d48594aef921",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/e285254e60f33c21902efef4a926ca0987c06804",
+                "reference": "e285254e60f33c21902efef4a926ca0987c06804",
                 "shasum": ""
             },
             "require": {
@@ -3964,7 +4017,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-07-29T17:39:32+00:00"
+            "time": "2026-08-04T22:21:45+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
@@ -5024,16 +5077,16 @@
         },
         {
             "name": "rector/rector",
-            "version": "2.6.0",
+            "version": "2.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rectorphp/rector.git",
-                "reference": "24ef17c06737a6272806c5cca32b860449efe1ba"
+                "reference": "b8e68f058bca43e01a2e1caa51ef022d6551ed95"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rectorphp/rector/zipball/24ef17c06737a6272806c5cca32b860449efe1ba",
-                "reference": "24ef17c06737a6272806c5cca32b860449efe1ba",
+                "url": "https://api.github.com/repos/rectorphp/rector/zipball/b8e68f058bca43e01a2e1caa51ef022d6551ed95",
+                "reference": "b8e68f058bca43e01a2e1caa51ef022d6551ed95",
                 "shasum": ""
             },
             "require": {
@@ -5072,7 +5125,7 @@
             ],
             "support": {
                 "issues": "https://github.com/rectorphp/rector/issues",
-                "source": "https://github.com/rectorphp/rector/tree/2.6.0"
+                "source": "https://github.com/rectorphp/rector/tree/2.6.1"
             },
             "funding": [
                 {
@@ -5080,7 +5133,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-08-03T09:01:59+00:00"
+            "time": "2026-08-03T17:30:34+00:00"
         },
         {
             "name": "revolt/event-loop",
@@ -9587,16 +9640,16 @@
         },
         {
             "name": "wyrihaximus/async-test-utilities",
-            "version": "13.5.0",
+            "version": "13.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WyriHaximus/php-async-test-utilities.git",
-                "reference": "142c4bbdee36d6f3c378e1decba97b063958a073"
+                "reference": "3d2f7e9dab5519d8fce0b841add6e1595a34f6fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WyriHaximus/php-async-test-utilities/zipball/142c4bbdee36d6f3c378e1decba97b063958a073",
-                "reference": "142c4bbdee36d6f3c378e1decba97b063958a073",
+                "url": "https://api.github.com/repos/WyriHaximus/php-async-test-utilities/zipball/3d2f7e9dab5519d8fce0b841add6e1595a34f6fe",
+                "reference": "3d2f7e9dab5519d8fce0b841add6e1595a34f6fe",
                 "shasum": ""
             },
             "require": {
@@ -9607,7 +9660,7 @@
                 "react/promise": "^3.3.0",
                 "wyrihaximus/phpstan-react": "^2.0.0",
                 "wyrihaximus/react-phpunit-run-tests-in-fiber": "^4.0.0",
-                "wyrihaximus/test-utilities": "^13.5.0"
+                "wyrihaximus/test-utilities": "^13.5.1"
             },
             "conflict": {
                 "composer/compoer": "<2.6.0"
@@ -9642,7 +9695,7 @@
             "description": "Test utilities for api-clients packages",
             "support": {
                 "issues": "https://github.com/WyriHaximus/php-async-test-utilities/issues",
-                "source": "https://github.com/WyriHaximus/php-async-test-utilities/tree/13.5.0"
+                "source": "https://github.com/WyriHaximus/php-async-test-utilities/tree/13.5.1"
             },
             "funding": [
                 {
@@ -9650,7 +9703,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-07-30T08:44:09+00:00"
+            "time": "2026-08-03T17:02:23+00:00"
         },
         {
             "name": "wyrihaximus/coding-standard",
@@ -9876,23 +9929,23 @@
         },
         {
             "name": "wyrihaximus/phpstan-rules-wrapper",
-            "version": "14.2.0",
+            "version": "14.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WyriHaximus/php-phpstan-rules-wrapper.git",
-                "reference": "7cd78f466177384201b551f6ade2e7bcc7f9f30a"
+                "reference": "351919f1354dab8c39f5a2c904097dd2f382933d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WyriHaximus/php-phpstan-rules-wrapper/zipball/7cd78f466177384201b551f6ade2e7bcc7f9f30a",
-                "reference": "7cd78f466177384201b551f6ade2e7bcc7f9f30a",
+                "url": "https://api.github.com/repos/WyriHaximus/php-phpstan-rules-wrapper/zipball/351919f1354dab8c39f5a2c904097dd2f382933d",
+                "reference": "351919f1354dab8c39f5a2c904097dd2f382933d",
                 "shasum": ""
             },
             "require": {
                 "ergebnis/phpstan-rules": "^2.13.1",
                 "php": "^8.4",
                 "phpstan/extension-installer": "^1.4.3",
-                "phpstan/phpstan": "^2.2.7",
+                "phpstan/phpstan": "^2.2.8",
                 "phpstan/phpstan-deprecation-rules": "^2.0.5",
                 "phpstan/phpstan-mockery": "^2.0.0",
                 "phpstan/phpstan-phpunit": "^2.0.18",
@@ -9901,7 +9954,7 @@
                 "shipmonk/phpstan-rules": "^4.4.0",
                 "staabm/phpstan-psr3": "^1.0.3",
                 "symplify/phpstan-extensions": "^12.0.2",
-                "tomasvotruba/type-coverage": "^2.2.2",
+                "tomasvotruba/type-coverage": "^2.3.0",
                 "wyrihaximus/phpstan-no-safe": "^1.0.0",
                 "yamadashy/phpstan-friendly-formatter": "^1.4.0"
             },
@@ -9926,7 +9979,7 @@
             "description": "🌯 PHPStan rules wrapper",
             "support": {
                 "issues": "https://github.com/WyriHaximus/php-phpstan-rules-wrapper/issues",
-                "source": "https://github.com/WyriHaximus/php-phpstan-rules-wrapper/tree/14.2.0"
+                "source": "https://github.com/WyriHaximus/php-phpstan-rules-wrapper/tree/14.3.0"
             },
             "funding": [
                 {
@@ -9934,7 +9987,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-07-29T21:06:05+00:00"
+            "time": "2026-08-05T06:05:27+00:00"
         },
         {
             "name": "wyrihaximus/react-phpunit-run-tests-in-fiber",

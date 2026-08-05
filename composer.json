@@ -12,10 +12,11 @@
     "php": "^8.4",
     "nikic/php-parser": "^5.0",
     "openapi-tools/representation": "dev-main",
-    "openapi-tools/utils": "dev-main"
+    "openapi-tools/utils": "dev-main",
+    "psr/http-message": "^1 || ^2 || ^3"
   },
   "require-dev": {
-    "wyrihaximus/async-test-utilities": "^13.5.0",
+    "wyrihaximus/async-test-utilities": "^13.5.1",
     "wyrihaximus/makefiles": "^0.13.3"
   },
   "autoload": {
